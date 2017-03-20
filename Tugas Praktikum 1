@@ -56,11 +56,11 @@ public:
 	void bukuTeknologi() {
 		Buku teknologi[5];
 
-		teknologi[0].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		teknologi[1].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		teknologi[2].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		teknologi[3].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		teknologi[4].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
+		teknologi[0].isiBuku("Membuat Aplikasi Penjualan Barang dengan Visual Basic 6.0", "Indah Indriyana", 221, "Alif Media");
+		teknologi[1].isiBuku("Sistem Informasi Manajemen #1 : Mengelola Perusahaan Digital Ed. 10", "Kenneth C. Laudon & Jane P. Laudon", 492, "Salemba Empat");
+		teknologi[2].isiBuku("QUALITATIVE RESEARCH METHOD : Theory and Practice ", "Sari Wahyuni", 246, "Salemba Empat");
+		teknologi[3].isiBuku("Pengantar Sistem Informasi (e16) 1", "James A. O`Brien | George M. Marakas", 436, "Salemba Empat");
+		teknologi[4].isiBuku("Jaringan Komputer; Komunikasi Data dan Komputer Edisi 6", "William Stallings", 454, "Salemba Infotek");
 
 		cout << "\nDaftar Buku Teknologi :" << endl;
 
