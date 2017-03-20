@@ -119,11 +119,11 @@ public:
 	void bukuFiksi() {
 		Buku fiksi[5];
 
-		fiksi[0].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		fiksi[1].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		fiksi[2].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		fiksi[3].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		fiksi[4].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
+		fiksi[0].isiBuku("The Alchemist", "Paulo Coelho", 129, "queenbre");
+		fiksi[1].isiBuku("Journey in Space", "Robert giogo", 320, "Britshob");
+		fiksi[2].isiBuku("Knight and merchant", "Santonio opeq", 293, "tesfinco");
+		fiksi[3].isiBuku("Goblin and Tentacle", "Romero pegi", 169, "Loqiste");
+		fiksi[4].isiBuku("The prince", "Sentorius", 420, "Britishta");
 
 		cout << "\nDaftar Buku Fiksi :" << endl;
 
