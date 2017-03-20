@@ -72,11 +72,11 @@ public:
 	void bukuSejarah() {
 		Buku sejarah[5];
 
-		sejarah[0].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		sejarah[1].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		sejarah[2].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		sejarah[3].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		sejarah[4].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
+		sejarah[0].isiBuku("Takdir - Riwayat Pangeran Diponegoro 1785-1855 (Edisi Peta Perang Jawa)", "Peter Carey", 512, "Kompas");
+		sejarah[1].isiBuku("Tradisi Megalitik di Lima Puluh Koto", "Rr. Triwurjani, dkk", 198, "WWS");
+		sejarah[2].isiBuku("U-Boot Waffe: Pasukan Kapal Selam Jerman PD II", "Gordon Williamson", 560, "Kpg");
+		sejarah[3].isiBuku("Sejarah Pelayaran Nusantara: Jejak Indonesia di Lautan Dunia", "Ms. Ardison", 350, "Stomata");
+		sejarah[4].isiBuku("Riwayat Tionghoa Peranakan di Jawa", "Onghokham", 224, "Komunitas Bambu");
 
 		cout << "\nDaftar Buku Sejarah :" << endl;
 
