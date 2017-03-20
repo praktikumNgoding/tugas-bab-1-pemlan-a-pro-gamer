@@ -87,11 +87,11 @@ public:
 	void bukuPsikologi() {
 		Buku psikologi[5];
 
-		psikologi[0].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		psikologi[1].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		psikologi[2].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		psikologi[3].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		psikologi[4].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
+		psikologi[0].isiBuku("Psychological mind", "Penelope kein", 143, "Minefos");
+		psikologi[1].isiBuku("Psychological Assessment", "Gary groth", 217, "Alpremin");
+		psikologi[2].isiBuku("Mind", "Yumeno Yuka", 20, "Yubisaki");
+		psikologi[3].isiBuku("Thinking High", "Solomon", 189, "Bitsin");
+		psikologi[4].isiBuku("Gross Personality", "Meriline kate", 193, "Yiels");
 
 		cout << "\nDaftar Buku Psikologi :" << endl;
 
@@ -103,11 +103,11 @@ public:
 	void bukuPolitik() {
 		Buku politik[5];
 
-		politik[0].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		politik[1].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		politik[2].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		politik[3].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		politik[4].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
+		politik[0].isiBuku("Wall of truth", "Lopero Homie", 520, "Cataloque");
+		politik[1].isiBuku("Kebenaran dalam berpolitik", "Simin Paijo", 76, "Praker");
+		politik[2].isiBuku("Honest of act", "Kouchi Hosa", 179, "Nafonda");
+		politik[3].isiBuku("Roman justice", "Tepelesto", 220, "Titsto");
+		politik[4].isiBuku("The Judge", "Roberto Melano", 237, "Fresta");
 
 		cout << "\nDaftar Buku Politik :" << endl;
 
