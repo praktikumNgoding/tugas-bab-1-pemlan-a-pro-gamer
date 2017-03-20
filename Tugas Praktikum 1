@@ -20,14 +20,14 @@ public:
 		cout << "Banyak Halaman : " << this->halaman << endl;
 	}
 };
-	void bukuFilsafat() {
+		void bukuFilsafat() {
 		Buku filsafat[5];
 
-		filsafat[0].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		filsafat[1].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		filsafat[2].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		filsafat[3].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		filsafat[4].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
+		filsafat[0].isiBuku("Sejarah Tuhan", "Karen Armstrong", 365, "Pustaka");
+		filsafat[1].isiBuku("Buku Saku Filsafat Islam", "Haidar Bagir", 224, "Mizan");
+		filsafat[2].isiBuku("The Case for God", "Karen Armstrong", 608, "Mizan");
+		filsafat[3].isiBuku("Dunia Sophie", "Jostein Gaarder", 561, "Mizan");
+		filsafat[4].isiBuku("A Theory of Justice", "John Rawls", 800, "Pustaka Pelajar");
 
 		cout << "Daftar Buku Filsafat :" << endl;
 
@@ -39,11 +39,11 @@ public:
 	void bukuAgama() {
 		Buku agama[5];
 
-		agama[0].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		agama[1].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		agama[2].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		agama[3].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
-		agama[4].isiBuku("ini judul", "ini penulis", 20, "ini penerbit");
+		agama[0].isiBuku("Ensiklopedi Akhir Zaman", "Dr. Muhammad Ahamad Al-Mubayyadh", 1000, "Syaamil Quran");
+		agama[1].isiBuku("Kisah Para Nabi", "Ibnu Katsir", 968, "Ummul Qura");
+		agama[2].isiBuku("Fihi Ma Fihi", "Jalaluddin Rumi", 602, "FORUM");
+		agama[3].isiBuku("Makrifatullah Rasulullah", "Said Hawwa", 569, "Eaststar");
+		agama[4].isiBuku("Fikih Empat Madzhab", "Syaikh Abdurrahman Al-Juzairi", 4680, "Pustaka Al-Kautsar");
 
 		cout << "\nDaftar Buku Agama :" << endl;
 
@@ -52,6 +52,7 @@ public:
 			agama[i].Display();
 		}
 	}
+
 	void bukuTeknologi() {
 		Buku teknologi[5];
 
